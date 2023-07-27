@@ -1,0 +1,254 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+.my-nav {
+  border-radius: 3rem;
+  font-family: 'Lato', sans-serif;
+  background: #F85559;
+}
+
+.my-nav a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.text-color {
+  color: #fff !important;
+}
+
+.search {
+  border-radius: 2rem 2rem 2rem 2rem;
+  position: relative;
+}
+
+.search-icon {
+  border-radius: 2rem 2rem 2rem 2rem;
+
+  right: 0.5rem;
+  top: 50%;
+
+  border: none;
+  background-color: #fff;
+  height: 100%;
+}
+
+.search-box {
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+.search-box input {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent;
+}
+
+.search-box input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search-box button {
+  border: none;
+  background-color: transparent;
+}
+
+.search-box button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.search-box button:focus {
+  background-color: transparent !important;
+}
+
+/* caurosol are start */
+
+
+.single-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-overlay {
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+}
+
+.carousel-overlay h1, p {
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.carousel-control-prev-icon {
+  width: 1rem;
+  height: 1rem;
+
+}
+
+.carousel-control-next-icon {
+  width: 1rem;
+  height: 1rem;
+
+}
+
+.carousel-caption {
+  bottom: 11rem;
+}
+
+.carousel-btn {
+  background-color: #121212 !important;
+  padding: 1rem !important;
+  /* border-radius: 50%; */
+  shape-outside: circle();
+  clip-path: circle();
+}
+
+.sm-banner-area {
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+  margin-top: -25px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-sm-banner {
+  padding: 5px 15px;
+}
+
+/* Deal area start */
+
+.deal-area {
+  margin-top: 9rem;
+  padding: 25px 0;
+}
+
+.deal-area h4, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Deal area end */
+
+/* card area start */
+
+.single-card {
+  border: 1px solid rgba(18, 18, 18, 0.10);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.single-card:hover {
+  cursor: pointer;
+}
+
+.single-card .img-fluid {
+  height: 165px;
+}
+
+.dash {
+  width: 15.25rem;
+  height: 0.0625rem;
+  background: rgba(18, 18, 18, 0.10);
+  margin: auto;
+}
+
+/* card area ends  */
+
+/* team area start */
+
+.team-area {
+  background: url('../images/team.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team-area .team-overlay {
+  background: rgba(18, 18, 18, 0.70);
+  padding: 55px 0;
+}
+
+.team-overlay h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.team-description{
+margin-top: 2.3rem;
+}
+
+
+
+/* team area ends */
+
+
+/* responsive area start */
+
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 576px) {
+  .my-nav {
+    border-radius: 0 !important;
+    background: #fff !important;
+    color: black !important;
+  }
+
+  .text-color {
+    color: black !important;
+  }
+
+  .search-box {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 2rem;
+    background-color: white;
+  }
+
+  .carousel-caption {
+    display: block !important;
+    bottom: -1.1rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: .7rem;
+  }
+
+  .carousel-caption p {
+    font-size: .7rem;
+  }
+
+  .deal-area {
+    margin-top: 1rem;
+  }
+
+  .single-card {
+    margin-bottom: 25px;
+  }
+  .single-member{
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+  }
+}
