@@ -192,14 +192,32 @@
   font-weight: 800;
   line-height: normal;
 }
-.team-description{
-margin-top: 2.3rem;
+
+.team-description {
+  margin-top: 2.3rem;
 }
-
-
 
 /* team area ends */
 
+/* contact area start */
+.header-area {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.header-area h1 {
+  font-family: Lato;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.header-area p{
+  font-family: Lato;
+}
+/* contact area ends */
 
 /* responsive area start */
 
@@ -247,7 +265,8 @@ margin-top: 2.3rem;
   .single-card {
     margin-bottom: 25px;
   }
-  .single-member{
+
+  .single-member {
     margin-bottom: 1rem;
     padding: 1rem 0;
   }
