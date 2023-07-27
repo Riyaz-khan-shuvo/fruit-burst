@@ -24,10 +24,8 @@
 
 .search-icon {
   border-radius: 2rem 2rem 2rem 2rem;
-
   right: 0.5rem;
   top: 50%;
-
   border: none;
   background-color: #fff;
   height: 100%;
@@ -91,8 +89,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-
-
 .carousel-control-prev-icon {
   width: 1rem;
   height: 1rem;
@@ -145,7 +141,6 @@
 /* Deal area end */
 
 /* card area start */
-
 .single-card {
   border: 1px solid rgba(18, 18, 18, 0.10);
   text-align: center;
@@ -214,10 +209,34 @@
   line-height: normal;
   margin-bottom: 1rem;
 }
-.header-area p{
+
+.header-area p {
   font-family: Lato;
 }
+
 /* contact area ends */
+
+/* why choose us area start */
+
+.why-choose-body {
+  margin-top: 2rem;
+}
+.why-dash {
+  width: 6.25rem;
+  height: 0.0625rem;
+  background: #121212;
+  margin-top: 1rem;
+}
+.opossite{
+  direction: rtl;
+}
+.why-choose-body .img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* why choose us area ends */
+
 
 /* responsive area start */
 
@@ -269,5 +288,8 @@
   .single-member {
     margin-bottom: 1rem;
     padding: 1rem 0;
+  }
+  .header-area {
+    width: 80%;
   }
 }
